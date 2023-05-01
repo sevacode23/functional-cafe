@@ -4,7 +4,6 @@ import { RouterProvider } from 'react-router-dom';
 import { theme } from 'shared/ui';
 
 import { router } from '../config';
-
 import { Layout } from './layout';
 
 export const App = () => (

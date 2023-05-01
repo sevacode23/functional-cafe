@@ -1,1 +1,1 @@
-export const ROUTES = { ROOT: '/', AUTH: '/auth' } as const;
+export const ROUTES = { ROOT: '/', SIGN_UP: '/sign-up' } as const;

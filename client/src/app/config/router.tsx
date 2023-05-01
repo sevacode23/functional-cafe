@@ -1,5 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 
+import { UserAuth } from 'features';
+
 import { ROUTES } from '../const';
 
 export const router = createBrowserRouter([
@@ -8,7 +10,7 @@ export const router = createBrowserRouter([
     element: <div>Hello world!</div>,
   },
   {
-    path: ROUTES.AUTH,
-    element: <div>Auth page</div>,
+    path: ROUTES.SIGN_UP,
+    element: <UserAuth />,
   },
 ]);

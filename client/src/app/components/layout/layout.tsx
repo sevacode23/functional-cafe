@@ -1,5 +1,7 @@
 import { Header } from 'widgets';
 
+import classes from './layout.module.scss';
+
 interface IProps {
   children?: React.ReactNode;
 }
@@ -8,9 +10,9 @@ export const Layout = (props: IProps) => {
   const { children } = props;
 
   return (
-    <div>
+    <div className={classes.root}>
       <Header />
-      {children}
+      <div>{children}</div>
     </div>
   );
 };

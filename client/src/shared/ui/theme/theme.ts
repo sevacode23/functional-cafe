@@ -28,7 +28,7 @@ export const theme = createTheme({
       fontSize: 14,
     },
     button: {
-      fontStyle: 'italic',
+      fontWeight: 500,
       fontSize: 14,
     },
     caption: { fontSize: 12 },

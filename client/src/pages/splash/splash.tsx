@@ -4,6 +4,6 @@ import classes from './splash.module.scss';
 
 export const Splash = () => (
   <div className={classes.root}>
-    <Icon type="logo" />
+    <Icon type="logoBlack" />
   </div>
 );

@@ -1,8 +1,9 @@
 import { ImgHTMLAttributes } from 'react';
 
-import logo from '../../assets/icons/logo.svg';
+import logoBlack from '../../assets/icons/logo-black.svg';
+import logoWhite from '../../assets/icons/logo-white.svg';
 
-export const ICONS = { logo };
+export const ICONS = { logoBlack, logoWhite };
 
 export type TIcon = keyof typeof ICONS;
 
