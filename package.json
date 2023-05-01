@@ -1,0 +1,9 @@
+{
+  "name": "zoria-cafe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "client:start": "cd ./client && yarn start"
+  }
+}
