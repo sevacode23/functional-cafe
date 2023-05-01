@@ -8,16 +8,12 @@ interface IProps extends HTMLAttributes<HTMLSpanElement> {
 }
 
 export const Typography = (props: IProps) => {
-  const {
-    element = 'span',
-    variant: typography = 'regular16',
-    ...other
-  } = props;
+  const { element = 'span', variant = 'regular16', ...other } = props;
 
   const Element = element;
 
   return (
-    <Element className={typography} {...other}>
+    <Element className={variant} {...other}>
       Hehe
     </Element>
   );
