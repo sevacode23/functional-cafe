@@ -1,0 +1,19 @@
+@import 'shared/ui/scss/mixins';
+
+.root {
+  @include fullSizeFlexCenter;
+  flex-direction: column;
+}
+
+.form {
+  width: 300px;
+  margin-top: 48px;
+}
+
+.loginButton {
+  margin-top: 16px;
+}
+
+.createButton {
+  margin-top: 80px;
+}
